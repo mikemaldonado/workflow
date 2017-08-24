@@ -1,0 +1,25 @@
+{
+  "name": "workflow",
+  "version": "1.0.0",
+  "description": "My web workflow with NPM, SASS, Gulp and more",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikemaldonado/workflow.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp",
+    "GIT"
+  ],
+  "author": "Mike Maldonado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikemaldonado/workflow/issues"
+  },
+  "homepage": "https://github.com/mikemaldonado/workflow#readme"
+}
