@@ -1,3 +1,13 @@
 body {
   background-color: #eee;
 }
+
+h1 {
+  color: #fff;
+  -webkit-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+h1:hover {
+  color: red;
+}

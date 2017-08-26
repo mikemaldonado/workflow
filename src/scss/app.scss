@@ -3,3 +3,12 @@ $grey: #eee;
 body {
 	background-color: $grey ;
 }
+
+h1 {
+	color:#fff;
+	transition:color 1s ease;
+}
+
+h1:hover {
+	color:red;
+}
