@@ -1,14 +1,14 @@
-$grey: #eee;
+$grey: #444 ;
 
 body {
-	background-color: $grey ;
+	background-color: $grey;
 }
 
 h1 {
-	color:#fff;
-	transition:color 1s ease;
+	color: #fff;
+	transition: color 1s ease;
 }
 
 h1:hover {
-	color:red;
+	color: red;
 }
