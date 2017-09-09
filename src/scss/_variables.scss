@@ -1,0 +1,50 @@
+$white : 		#fff;
+$blue : 		#0076A3;
+$dark-blue : 	darken($blue, 10);
+$yellow : 		#FFBA00;
+$green : 		#548c27;
+$red : 			#fe2d28;
+$black : 		#000;
+
+$nav-bg-color: $dark-blue;
+$bg-color: $blue;
+$text-color: $black;
+
+$paragraph-font-size: 1.2rem;
+$paragraph-font-family: 'Open Sans', sans-serif;
+
+$menu-anchor-font-size: 1.4rem;
+
+//heading-font-size
+$heading-font-family: 'Bitter', serif;
+$heading-color: $yellow;
+$heading-font-size: (
+	h1: 40px,
+	h2: 36px,
+	h3: 32px,
+	h4: 28px,
+	h5: 24px
+	
+);
+
+// visit
+$visit-border-color: $white;
+$visit-heading-color: lighten($yellow, 10);
+$visit-text-color: $white;
+
+// grid & responsive
+$breakpoints: (
+	phone: 480px,
+	tablet: 768px,
+	desktop: 1024px
+);
+
+//grid
+$columns: 12;
+$grid-max-width: 1200px;
+
+//buttons
+$btn-font-size: 16px;
+
+//footer
+$bg-footer: $dark-blue;

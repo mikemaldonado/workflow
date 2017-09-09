@@ -1,0 +1,13 @@
+body {
+	background-color: $bg-color;
+	font-size: $paragraph-font-size;
+	font-family: $paragraph-font-family;
+}
+
+main#main-content {
+	margin-bottom:20px;
+}
+
+footer {
+	background-color: $bg-footer;
+}

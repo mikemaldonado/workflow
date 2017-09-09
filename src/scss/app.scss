@@ -1,14 +1,4 @@
-$grey: #444 ;
-
-body {
-	background-color: $grey;
-}
-
-h1 {
-	color: #fff;
-	transition: color 1s ease;
-}
-
-h1:hover {
-	color: red;
-}
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700|Open+Sans:400,700);
+@import 'variables';
+@import 'layout';
+@import 'typography';
