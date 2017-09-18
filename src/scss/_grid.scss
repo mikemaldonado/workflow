@@ -1,0 +1,45 @@
+.container {
+	
+	@include clearfix; /*in case there is no column*/
+	margin: 0 auto;
+	padding:0 15px;
+	width: 95%;
+	@include tablet {
+		width: 90%;
+	}
+	@include desktop {
+		width:100%;
+		max-width: $grid-max-width;
+	}
+	overflow: hidden;
+}
+
+.row {
+	@include clearfix;
+	@include tablet {
+		margin: 0 -1em;
+	}
+}
+
+[class*='column-'] {
+	@include border-box;
+	float:left;
+	width:100%;
+	padding:1em;
+}
+
+@include tablet {
+	@for $i from 1 through $columns {
+		.medium-column-#{$i} {
+			width:(100%*$i)/$columns;
+		}
+	}
+}
+
+@include desktop {
+	@for $i from 1 through $columns {
+		.large-column-#{$i} {
+			width:(100%*$i)/$columns;
+		}
+	}
+}

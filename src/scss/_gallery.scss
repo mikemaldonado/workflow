@@ -1,0 +1,12 @@
+.gallery {
+	li.image-container {
+		float:left;
+		list-style:none;
+		@include grid-images(4,2);
+		img {
+			max-width:100%;
+			display:block;
+			@include border-radius(10px);
+		}
+	}
+}

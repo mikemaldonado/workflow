@@ -12,11 +12,15 @@ $text-color: $black;
 
 $paragraph-font-size: 1.2rem;
 $paragraph-font-family: 'Open Sans', sans-serif;
+$paragraph-font-weight: 400;
 
-$menu-anchor-font-size: 1.4rem;
+$menu-anchor-font-size: 1.2rem;
+$menu-anchor-hover-color: $yellow;
+$menu-anchor-color: $white;
 
 //heading-font-size
 $heading-font-family: 'Bitter', serif;
+$heading-font-weight: 700;
 $heading-color: $yellow;
 $heading-font-size: (
 	h1: 40px,
@@ -32,6 +36,10 @@ $visit-border-color: $white;
 $visit-heading-color: lighten($yellow, 10);
 $visit-text-color: $white;
 
+//card
+$card-bg-color:$white;
+$card-text-font-size: 1rem;
+
 // grid & responsive
 $breakpoints: (
 	phone: 480px,
@@ -45,6 +53,22 @@ $grid-max-width: 1200px;
 
 //buttons
 $btn-font-size: 16px;
+$btn-font-weight:bold;
+
+
+//table
+$table-font-size: 1.2rem;
+$table-caption-font-family: $heading-font-family;
+$table-caption-text-color: $yellow;
+$table-color: $white;
+$table-hover-bg-color: darken($yellow, 5);
+
+//services
+$paragraph-services-font-size:1rem;
+$paragraph-service-color:$white;
 
 //footer
 $bg-footer: $dark-blue;
+$footer-color:$white;
+$site-info-color:$dark-blue;
+$site-info-bg-color: $yellow;

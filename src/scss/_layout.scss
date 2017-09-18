@@ -1,7 +1,15 @@
+*,
+*::after,
+*::before {
+	margin:0;
+	padding:0;
+	@include border-box;
+}
 body {
 	background-color: $bg-color;
 	font-size: $paragraph-font-size;
 	font-family: $paragraph-font-family;
+	font-weight: $paragraph-font-weight;
 }
 
 main#main-content {
@@ -10,4 +18,9 @@ main#main-content {
 
 footer {
 	background-color: $bg-footer;
+}
+
+img {
+	max-width:100%;
+	height:auto;
 }
